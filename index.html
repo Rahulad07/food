@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>Document</title>
+
+  </body>
+
+
+</html>
+<!-- <input type="checkbox" id="check" /> -->
+<nav class="nav-active">
+  <a class="brand-name">The Great Kitchen & Restaurants</a>
+
+  <div class="search-box">
+    <input type="search" placeholder="Search..." />
+    <span class="fas fa-search"></span>
+  </div>
+
+  <ol>
+    <li><a href="#home">Home</a></li>
+    <li><a href="venu.html">Venu</a></li>
+    <li><a href="#offer">Offers</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contacts">Contacts</a></li>
+  </ol>
+
+  <label for="check" class="bar">
+    <!-- <span class="fas fa-bars" id="bars"></span> -->
+    <!-- <span class="fas fa-times" id="times"></span> -->
+    <i class="fa fa-bars fa-lg menu-bar" onclick="openNav()"></i>
+  </label>
+</nav>
+</header>
+
+<section></section>
+<!-- this is for mobile screen////// -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <div class="nav-menu">
+    <h1>The Great Kitchen & Restaurant</h1>
+    <a href="">Home</a>
+    <a href="">Venu</a>
+    <a href="">Offers</a>
+    <a href="">About</a>
+    <a href="">Contacts</a>
+    <hr>
+    <h2>Get In Touch</h2>
+    <div class="contact-us">
+      <a href="tel:9817977026"><i class="fa fa-phone fa-lg"></i>
+        9817977026</a>
+
+      <a href="mailto:TGK&R21@gmail.com"><i class="fa fa-envelope fa-lg"></i>
+        st.rahul07@gmaii.com</a>
+    </div>
+    <hr>
+    <h2>Social</h2>
+    <div class="social">
+
+      <p>
+        <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook"></i> Facebook</a>
+      </p>
+      <p>
+        <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i> Twitter</a>
+      </p>
+
+      <p>
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </p>
+    </div>
+  </div>
+</div>
+<!-- mobile screen end here -->
+<!-- for food  -->
+<div class="food-section">
+  <h1>Our Food</h1>
+  <h4>Eat Healthy Be Healthy</h4>
+  <div class="pill-platform">
+    <button class="pills" type="button" onclick="openbreakfast()"><a class="button-link">Breakfast</a></button>
+    <button class="pills" type="button" onclick="openlunch()"><a class="button-link">Lunch</a></button>
+    <button class="pills" type="button" onclick="opensnack()"><a class="button-link">Snacks</a></button>
+    <button class="pills" type="button" onclick="opendinner()"><a class="button-link">Dinner</a></button>
+    <button class="pills" type="button" onclick="opendessert()"><a class="button-link">Dessert</a></button>
+  </div>
+
+  <div class="food-platform" id="defult-item">
+    <div class="food-ording-box">
+      <img src="Images/sparkling kiss ch.jpeg">
+      <h3>Food</h3>
+    </div>
+    <div class="food-ording-box">
+      <img src="Images/sparkling kiss ch.jpeg">
+      <h3>Food</h3>
+    </div>
+    <div class="food-ording-box">
+      <img src="Images/sparkling kiss ch.jpeg">
+      <h3>Food</h3>
+    </div>
+    <div class="food-ording-box">
+
+      <h3>Food</h3>
+    </div>
+    <div class="food-ording-box">
+
+      <h3>Food</h3>
+    </div>
+    <div class="food-ording-box">
+
+      <h3>Food</h3>
+    </div>
+
+  </div>
+
+  <!-- this is break-fast part-->
+  <div class="breakfast" id="breakfast">
+    <div class="breakfast-food-ording-box" id="breakfast-item-1">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="breakfast-food-ording-box" id="breakfast-item-2">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="breakfast-food-ording-box" id="breakfast-item-3">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="breakfast-food-ording-box" id="breakfast-item-4">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="breakfast-food-ording-box" id="breakfast-item-5">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="breakfast-food-ording-box" id="breakfast-item-6">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+  </div>
+  <!-- breakfast-part-end-here  -->
+
+  <!-- lunch part start here  -->
+  <div class="lunch" id="lunch">
+    <div class="lunch-food-ording-box" id="lunch-item-1">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>lunch</h3>
+    </div>
+    <div class="lunch-food-ording-box" id="lunch-item-2">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Lunch</h3>
+    </div>
+    <div class="lunch-food-ording-box" id="lunch-item-3">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="lunch-food-ording-box" id="lunch-item-4">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="lunch-food-ording-box" id="lunch-item-5">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="lunch-food-ording-box" id="lunch-item-6">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+  </div>
+  <!-- lunch part end here  -->
+
+  <!-- Snacks part start here -->
+  <div class="snack" id="snack">
+    <div class="snack-food-ording-box" id="snack-item-1">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Snack</h3>
+    </div>
+
+    <div class="snack-food-ording-box" id="snack-item-2">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="snack-food-ording-box" id="snack-item-3">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="snack-food-ording-box" id="snack-item-4">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+    <div class="snack-food-ording-box" id="snack-item-5">
+      <h3>Check</h3>
+    </div>
+    <div class="snack-food-ording-box" id="snack-item-6">
+      <!-- <img src="Images/Sparkling Kiss ch.jpg"> -->
+      <h3>Check</h3>
+    </div>
+  </div>
+  <!-- samcks part end here  -->
+
+</div>
+
+<!-- our food section end here  -->
+<div class="ordering-platform">
+  <h2>Our Ordering Partners</h2>
+  <div class="online-order">
+    <a href="https://foodmandu.com/" target="blank"><img src="Images/foodmandu2.jpg"></a>
+    <a href="https://pathao.com/np/" target="blank"><img src="Images/pathao2.png"></a>
+    <a href="https://www.bhojdeals.com/np/" target="blank"><img src="Images/Bhojdeal.jpg" class="bhoj"></a>
+  </div>
+</div>
+
+
+<form action="https://formspree.io/f/xwkaayqe" method="POST" id="my-form" class="message-form">
+  <div class="contacts">
+    <h2>Contact Us</h2>
+    <label for="fname">First Name</label>
+    <input type="text" placeholder="First Name" name="fname" autocomplete="off" required>
+
+    <label for="Lname">Last Name</label>
+    <input type="text" placeholder="Last Name" name="Lname" autocomplete="off" required>
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="Enter email" name="email" autocomplete="off" required>
+
+    <label for="message">Message us</label>
+    <textarea class="message-area" placeholder="Type your message" name="message"
+      style="height: 200px; padding-bottom: 150px;" autocomplete="off" required></textarea>
+
+    <button class="msg-submit">Send Message</button>
+
+    <div id="status"></div>
+  </div>
+
+  <div class="maps">
+    <h2>Our Location</h2>
+    <iframe
+      src="https://maps.google.com/maps?&amp;&amp;hl=en&amp;q=Gwarko+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+      href="https://www.maps.ie/draw-radius-circle-map/"></a>
+  </div>
+</form>
+
+
+
+<div class="footer">
+  <div class="heading">
+    <h2>The Great Kitchen & Restaurants<sup>&trade;</sup></h2>
+  </div>
+  <div class="content">
+    <div class="services">
+      <h4>Our Services</h4>
+      <p><a href="#">Food Ordering</a></p>
+      <p><a href="#">Table Service</a></p>
+      <p><a href="#">Offers</a></p>
+      <p><a href="#">Table Booking</a></p>
+      <p><a href="#">Birthday Celebration</a></p>
+    </div>
+    <div class="social-media">
+      <h4>Social</h4>
+      <p>
+        <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook"></i> Facebook</a>
+      </p>
+      <p>
+        <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i> Twitter</a>
+      </p>
+
+      <p>
+        <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </p>
+    </div>
+
+    <div class="details">
+      <h4 class="address">Address</h4>
+      <p>
+        Gwarko, Lalitpur-07
+      </p>
+      <h4 class="mobile">Phone no.</h4>
+      <p><a href="tel:+977 01-4538272" </a>+977 01-4538272</p>
+      <h4 class="mail">Email us at</h4>
+      <p><a href="mailto:TGK&R21@gmail.com">TGK&R21@gmail.com</a></p>
+    </div>
+  </div>
+  <footer>
+    <hr />
+    &copy; 2021 Great Kitchen Pvt. Ltd.
+
+    <a href="#policy">Privacy Policy</a>
+  </footer>
+</div>

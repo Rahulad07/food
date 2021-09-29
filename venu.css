@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+
+:root {
+  --navfonts: Lexend;
+  --secondaryfonts: Cinzel;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--navfonts);
+}
+.top{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.small-text{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.content-box{
+    border: 2px solid black;
+    width: 399.99px;
+    height: 258.99px;
+    margin: 10px 5px;
+}
